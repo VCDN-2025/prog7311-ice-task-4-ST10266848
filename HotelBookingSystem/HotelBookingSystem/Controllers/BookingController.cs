@@ -109,7 +109,7 @@ namespace HotelBookingSystem.Controllers
         //Author: Open AI
         //AI Chatbot: ChatGPT
         //Date: 24 February 2025
-        //Availability: https://chatgpt.com/share/67bc3701-aa34-8002-9397-b34b73662272
+        //Availability: https://chatgpt.com/share/67bc3f7b-ef1c-8002-9b57-ffe3f39b81b7
 
     }
 }
