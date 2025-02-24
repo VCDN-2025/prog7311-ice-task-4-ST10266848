@@ -106,6 +106,11 @@ namespace HotelBookingSystem.Controllers
             return RedirectToAction("Index");
         }
 
+        //Author: Open AI
+        //AI Chatbot: ChatGPT
+        //Date: 24 February 2025
+        //Availability: https://chatgpt.com/share/67bc3701-aa34-8002-9397-b34b73662272
+
     }
 }
 
