@@ -1,0 +1,21 @@
+﻿@model HotelBookingSystem.Models.Booking
+@{
+    ViewBag.Title = "Booking Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Booking Details</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">@Model.CustomerName</h5>
+        <p class="card-text"><strong>Booking Date:</strong> @Model.BookingDate.ToShortDateString()</p>
+        <p class="card-text"><strong>Duration:</strong> @Model.Duration days</p>
+        <p class="card-text"><strong>Room Type:</strong> @Model.RoomType</p>
+        <p class="card-text"><strong>Special Requests:</strong> @Model.SpecialRequests</p>
+    </div>
+</div>
+
+<br />
+<a href="@Url.Action("Index", "Booking")" class="btn btn-secondary">Back to List</a>
+<a href="@Url.Action("Edit", "Booking", new { id = Model.Id })" class="btn btn-primary">Edit Booking</a>
